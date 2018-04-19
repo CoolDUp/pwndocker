@@ -1,0 +1,8 @@
+version: '2'
+services:
+ pwntools:
+   build: .
+   volumes:
+    - ./work:/ctf/work/
+   command: bash
+   tty: true
