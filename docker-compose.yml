@@ -5,4 +5,7 @@ services:
    volumes:
     - ./work:/ctf/work/
    command: bash
+   cap_add:
+    - SYS_PTRACE
    tty: true
+   
